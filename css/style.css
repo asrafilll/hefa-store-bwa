@@ -57,13 +57,13 @@ body {
     background-color: #f7f7ff;
 }
 
-.features h3, .designer h3 {
+.features h3, .designer h3, .similar-product h3{
     font-family: 'Lora';
     color: #1B2690;
     font-weight: bold;
 }   
 
-.features p, .designer p, footer p {
+.features p, .designer p, footer p, .similar-product p{
     font-weight: 200;
     color: #b7b7b7;
 }
@@ -145,4 +145,44 @@ body {
 .single-product-designer p{
     font-size: 14px;
     font-weight: 200;
+}
+
+.product-description {
+    background-color: #f6f7fb;
+    height: 350px;
+}
+
+.product-description .tab-content {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-top: 0px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.05);
+}
+
+.product-description .tab-content p {
+    line-height: 28px;
+    font-weight: 200;
+    font-size: 16px;
+    color: #868686;
+}
+
+.product-review h5 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.product-review p {
+    font-size: 14px !important;
+    color: #868686;
+}
+
+.product-review {
+    height: 350px;
+    overflow-x: scroll;
+}
+
+.similar-product {
+    margin-top: 130px;
+    margin-bottom: 180px;
 }
