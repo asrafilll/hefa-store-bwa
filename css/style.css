@@ -57,13 +57,13 @@ body {
     background-color: #f7f7ff;
 }
 
-.features h3, .designer h3, .similar-product h3, .cart-header h3, .modal-body h3{
+.features h3, .designer h3, .similar-product h3, .cart-header h3, .modal-body h3, .product-category h3{
     font-family: 'Lora';
     color: #1B2690;
     font-weight: bold;
 }   
 
-.features p, .designer p, footer p, .similar-product p, .similar-product p, .cart-header p, .modal-body p{
+.features p, .designer p, footer p, .similar-product p, .similar-product p, .cart-header p, .modal-body p, .product-category p{
     font-weight: 200;
     color: #b7b7b7;
 }
@@ -202,4 +202,9 @@ body {
 .checkout-detail {
     background-color: #f6f7fb;
     border: 1px solid #eaeaea;
+}
+
+.product-category {
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
