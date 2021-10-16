@@ -57,13 +57,13 @@ body {
     background-color: #f7f7ff;
 }
 
-.features h3, .designer h3, .similar-product h3{
+.features h3, .designer h3, .similar-product h3, .cart-header h3, .modal-body h3{
     font-family: 'Lora';
     color: #1B2690;
     font-weight: bold;
 }   
 
-.features p, .designer p, footer p, .similar-product p{
+.features p, .designer p, footer p, .similar-product p, .similar-product p, .cart-header p, .modal-body p{
     font-weight: 200;
     color: #b7b7b7;
 }
@@ -101,6 +101,10 @@ body {
 
 .breadcrumb {
     margin-top: 100px;
+}
+
+.cart-breadcrumb {
+    margin-top: 50px;
 }
 
 /* SingleProduct Page */
@@ -185,4 +189,17 @@ body {
 .similar-product {
     margin-top: 130px;
     margin-bottom: 180px;
+}
+
+.cart-address {
+    margin-top: 100px;
+}
+
+.cart {
+    margin-bottom: 100px;
+}
+
+.checkout-detail {
+    background-color: #f6f7fb;
+    border: 1px solid #eaeaea;
 }
